@@ -25,6 +25,10 @@ body {
         padding :0;
 
     }
+    .about-top {
+        text-align: center;
+        padding:10px 20px;
+    }
 }
 
 h1 {
@@ -120,5 +124,9 @@ p {
 }
 
 .about-top-content {
-    margin:30px;
+    margin:20px;
+}
+
+.about-top img {
+    border-radius: 20px;
 }
