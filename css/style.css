@@ -1,35 +1,14 @@
 :root {
     --font-heading :'Playfair Display';
     --font-paragraph:'Poppins', sans-serif;
-    --primary-color: #F9F7FE;
-    --secondary-color:#6C63FF;
+    --primary-color: #ecf8fc;
+    --secondary-color:#6097e9;
     --third-color:black;
 }
 body {
     font-family: var(--font-paragraph);
 }
-@media (max-width:900px){
-    
-    h1 {
-            font-size: 44px;
-            line-height: 2;
-        }
-    h2 {
-        font-size: 44px;
-    }
-    .top {
-        padding:80px 20px;
-    }
-    .description {
-        text-align: center;
-        padding :0;
 
-    }
-    .about-top {
-        text-align: center;
-        padding:10px 20px;
-    }
-}
 
 h1 {
     font-family: var(--font-heading); 
@@ -67,6 +46,8 @@ p {
     font-size :65px;
     font-family: var(--font-heading);
     color:var(--third-color);
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 .description p {
     font-weight:450;
@@ -84,7 +65,7 @@ p {
 
 }
 .description {
-    padding:80px 40px;
+    padding:0px 40px 40px;
 }
 
 .top {
@@ -132,4 +113,29 @@ p {
 }
 .work-content h2 {
     font-size:24px;
+}
+.work-content h1 {
+    padding-top: 1px;
+}
+@media (max-width:900px){
+    
+    h1 {
+            font-size: 44px;
+            line-height: 2;
+        }
+    h2 {
+        font-size: 44px;
+    }
+    .top {
+        padding:80px 20px;
+    }
+    .description {
+        text-align: center;
+        padding :0;
+
+    }
+    .about-top {
+        text-align: center;
+        padding:10px 20px;
+    }
 }
