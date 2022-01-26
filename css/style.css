@@ -25,6 +25,10 @@ h2 {
     font-weight:normal;
     padding-top: 24px;
 }
+h4 {
+    font-size: 48px;
+} 
+
 p {
     font-family:var(--font-paragraph); 
     font-weight: 600;
@@ -136,6 +140,45 @@ nav li.active a {
 .work-content h1 {
     padding-top: 1px;
 }
+footer .email-link {
+    text-decoration: none;
+    color:var(--third-color);
+    font-size: 24px;
+}
+footer .email-link:hover {
+    color: var(--secondary-color);
+}
+footer {
+    margin: 60px 0;
+}
+footer .social-links a {
+    margin: 0 20px;
+    color: var(--secondary-color);
+    background: var(--primary-color);
+    padding: 10px 14px;
+    font-size: 18px;
+    border-radius: 50%;
+    transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+    color: var(--primary-color);
+    background: var(--secondary-color);
+}
+footer .contact-box {
+    background: var(--primary-color);
+    padding: 30px 120px;
+    border-radius: 10px;
+}
+footer .contact-box p {
+    margin: 0;
+}
+footer .btn {
+    background: var(--secondary-color);
+    font-size: 18px;
+    color: white;
+    margin-top: 20px;
+}
+
 @media (max-width:900px){
     
     h1 {
@@ -156,5 +199,8 @@ nav li.active a {
     .about-top {
         text-align: center;
         padding:10px 20px;
+    }
+    h4 {
+        font-size: 26px;
     }
 }
